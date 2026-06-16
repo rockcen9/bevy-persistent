@@ -17,7 +17,7 @@ authors = [
 ]
 
 [dependencies]
-bevy = { branch = "main", git = "https://github.com/bevyengine/bevy", features = [
+bevy = { version = "0.19.0-rc.3", features = [
     "std",
     "bevy_log",
 ] }
@@ -35,7 +35,7 @@ gloo-storage = { version = "0.3" }
 
 [dev-dependencies]
 anyhow = { version = "1.0" }
-bevy = { branch = "main", git = "https://github.com/bevyengine/bevy", features = [
+bevy = { version = "0.19.0-rc.3", features = [
     "serialize",
 ] }
 bevy-persistent = { path = ".", features = ["all"] }
